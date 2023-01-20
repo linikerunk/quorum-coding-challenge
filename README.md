@@ -17,7 +17,7 @@ be asked to answerthe following questions:
 
 1. For every legislatorin the dataset, how many bills did the legislator support (voted forthe
 bill)? How many bills did the legislator oppose?
-
+```sh
     ###legislators-support-oppose-count.csv###
     id,name,num_supported_bills,num_opposed_bills
     904789,Rep. Don Bacon (R-NE-2),1,1
@@ -40,16 +40,18 @@ bill)? How many bills did the legislator oppose?
     17941,Rep. Jeff Van Drew (R-NJ-2),1,1
     400440,Rep. Don Young (R-AK-1),1,1
     412211,Rep. John Yarmuth (D-KY-3),0,0
-
+```
 
 2. For every bill in the dataset, how many legislators supported the bill? How many legislators
 opposed the bill? Who was the primary sponsor of the bill?
 
+```sh
     ###bills.csv###
 
     id,name,supporter_count,opposer_count,primary_sponsor
     2952375,H.R. 5376: Build Back Better Act,6,13,Rep. John Yarmuth (D-KY-3)
     2900994,H.R. 3684: Infrastructure Investment and Jobs Act,13,6,Unknown
+```
 
 1. Discuss your solution’s time complexity. What tradeoffs did you make?
 ```
