@@ -2,7 +2,7 @@
 # Quorum Coding Challenge
 
 ## Requirements
-    It necessary to have python installed 
+    In order to proceed, it is required to have Python installed on your system.
 
 ## Run the script to see the answer
 ```
